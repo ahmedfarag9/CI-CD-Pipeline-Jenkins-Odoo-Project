@@ -27,3 +27,4 @@ services:
 volumes:
   odoo-data:
   db-data:
+  odoo-extra-addons:
