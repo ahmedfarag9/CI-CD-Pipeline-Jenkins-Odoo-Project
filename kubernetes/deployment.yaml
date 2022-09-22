@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: $APP_NAME
+  labels:
+    app: $APP_NAME
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: $APP_NAME
+  template:
+    metadata:
+      labels:
+        app: $APP_NAME
+    spec:
+      imagePullSecrets:
+        - name: aws-registry-key
+      containers:
+        - name: $APP_NAME
+          image: $DOCKER_REPO:$IMAGE_NAME
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
