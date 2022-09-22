@@ -61,7 +61,7 @@ pipeline {
                         sh "git remote set-url origin https://${USER}:${PASS}@github.com/ahmedfarag9/CI-CD-Pipeline-Jenkins-Odoo-Project.git"
                         sh 'git add .'
                         sh 'git commit -m "ci: version bump"'
-                        sh 'git push origin HEAD:Jenkins-jobs'
+                        sh 'git push origin HEAD:Jenkins-job'
                     }
                 }
             }
