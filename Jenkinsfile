@@ -51,8 +51,12 @@ pipeline {
                 script {
                     withCredentials([usernamePassword(credentialsId: 'github-credentials', passwordVariable: 'PASS', usernameVariable: 'USER')]) {
                         // git config here for the first time run
-                        //sh 'git config --global user.email "jenkins@example.com"'
-                        //sh 'git config --global user.name "jenkins"'
+                        sh 'git config --global user.email "jenkins@example.com"'
+                        sh 'git config --global user.name "jenkins"'
+                        
+                        sh 'git status'
+                        sh 'git branch'
+                        sh 'git config --list'
 
                         sh "git remote set-url origin https://${USER}:${PASS}@github.com/ahmedfarag9/CI-CD-Pipeline-Jenkins-Odoo-Project.git"
                         sh 'git add .'
