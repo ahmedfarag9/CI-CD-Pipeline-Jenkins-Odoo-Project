@@ -4,3 +4,26 @@ services:
       image: ${IMAGE}
       ports:
         - 8080:8080
+    web:
+      image: odoo:14.0
+      depends_on:
+        - db
+      ports:
+        - "8069:8069"
+      volumes:
+        - odoo-data:/var/lib/odoo
+        - odoo-extra-addons:/mnt/extra-addons
+      environment:
+        - POSTGRES_PASSWORD=odoo
+    db:
+      image: postgres:13
+      environment:
+        - POSTGRES_DB=postgres
+        - POSTGRES_PASSWORD=odoo
+        - POSTGRES_USER=odoo
+        - PGDATA=/var/lib/postgresql/data
+      volumes:
+        - db-data:/var/lib/postgresql/data
+volumes:
+  odoo-data:
+  db-data:
