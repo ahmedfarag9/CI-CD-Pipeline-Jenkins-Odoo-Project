@@ -25,5 +25,5 @@ Then it pushes the java app image to dockerHub repo and publish changes to githu
 - [Maven](https://maven.apache.org/) Open-source build tool for Java
 - [Odoo](https://www.odoo.com/) Open-source ERP system
 - [Odoo Custom Module](https://github.com/ahmedfarag9/library_app) I created a custom module to handle work in a public library
-- [Bash Scripting]
-- [Python]
+- Bash Scripting
+- Python
