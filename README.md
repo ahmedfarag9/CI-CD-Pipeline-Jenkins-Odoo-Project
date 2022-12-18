@@ -27,3 +27,44 @@ Then it pushes the java app image to dockerHub repo and publish changes to githu
 - [Odoo Custom Module](https://github.com/ahmedfarag9/library_app) I created a custom module to handle work in a public library
 - Bash Scripting
 - Python
+
+---
+
+## Preview
+
+- Jenkins Multi-branch Pipeline
+
+![](images/image1.png)
+
+---
+
+- Odoo AWS instance preview
+
+![](images/image2.png)
+
+---
+
+- Maven app versions on Docker repo
+
+![](images/image3.png)
+
+---
+
+- AWS instances setup
+
+![](images/image4.png)
+
+---
+
+
+- Odoo Docker Compose Yaml file
+
+![](images/image5.png)
+
+---
+
+- Jenkins Automation File
+
+![](images/image6.png)
+
+---
