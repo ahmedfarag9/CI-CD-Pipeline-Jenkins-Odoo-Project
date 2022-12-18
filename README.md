@@ -44,7 +44,7 @@ Then it pushes the java app image to dockerHub repo and publish changes to githu
 
 ---
 
-- Maven app versions on Docker repo
+- Maven app versions on DockerHub repo
 
 ![](images/image3.png)
 
