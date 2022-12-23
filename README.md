@@ -34,37 +34,36 @@ Then it pushes the java app image to dockerHub repo and publish changes to githu
 
 - Jenkins Multi-branch Pipeline
 
-![](images/image1.png)
+## <img src="images/image1.png" width="700" height="300"/>
 
 ---
 
 - Odoo AWS instance preview
 
-![](images/image2.png)
+## <img src="images/image2.png" width="700" height="300"/>
 
 ---
 
 - Maven app versions on DockerHub repo
 
-![](images/image3.png)
+## <img src="images/image3.png" width="700" height="300"/>
 
 ---
 
 - AWS instances setup
 
-![](images/image4.png)
+## <img src="images/image4.png" width="700" height="300"/>
 
 ---
 
-
 - Odoo Docker Compose Yaml file
 
-![](images/image5.png)
+## <img src="images/image5.png" width="700" height="300"/>
 
 ---
 
 - Jenkins Automation File
 
-![](images/image6.png)
+## <img src="images/image6.png" width="700" height="300"/>
 
 ---
